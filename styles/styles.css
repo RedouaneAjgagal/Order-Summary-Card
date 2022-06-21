@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/Order-summary-card-challenge/images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+    background-color: #eaf3fd;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 18px;
+}
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 110%;
+}
+h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+}
+a{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto; 
+    line-height: 1.5;
+    padding: 0 4px;
+    color: #555;
+}
+.summary-card{
+    margin: 200px auto 0;
+    width: 25%;
+    height: 650px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 15px 25px #c5ccce;
+}
+.top-img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+.summary-card-content{
+    padding: 25px 50px;
+}
+.contant{
+    margin-bottom: 30px;
+}
+.annual-plan-border{
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 15px;
+}
+.annual-plan{
+    background-color: #f7f6f6;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.pricing{
+    text-align: left;
+}
+.pricing-grey{
+    color: #555555;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: medium;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #3c07fd;
+    color: #fff;
+    width: 100%;
+    box-shadow: 0 15px 20px #c0cacc;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #3101e0;
+}
+.cancel-order{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #7a7a7a;
+    display: inline-block;
+    font-size: 0.85rem;
+}
